@@ -80,7 +80,7 @@ export class PostsService {
 
   deleteAllPosts() {
     this.http
-      .delete('https://ng-complete-guide-32859.firebaseio.com/posts.json',{
+      .delete('https://ng-complete-guide-32859.firebaseio.com/posts.json', {
         observe: 'events',
         responseType: 'text'
       })
